@@ -25,7 +25,7 @@ function generatePassword() {
 
     var passwordLength = checkPasswordLength();
     // show all the confirms, and store each answers to the variable.
-    var lowerCaseConfirm = confirm("Do you want lowercase");
+    var lowerCaseConfirm = true; 
     var upperCaseConfirm = confirm("Do you want upperCase");
     var numericLettersConfirm = confirm("Do you want numeric");
     var specialLetterCheckConfirm = confirm("Do you want special letter");
