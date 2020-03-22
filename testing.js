@@ -31,7 +31,7 @@ function generatePassword() {
     var specialLetterCheckConfirm = confirm("Do you want special letter");
     var password = [];
 
-    if (lowerCaseConfirm == false && upperCaseConfirm == false && numericLettersConfirm == false && specialLetterCheckConfirm == false) {
+    if (upperCaseConfirm == false && numericLettersConfirm == false && specialLetterCheckConfirm == false) {
 
         for (i = 0; i < passwordLength; i++) {
             password.push(randomlowerCaseLetters());
